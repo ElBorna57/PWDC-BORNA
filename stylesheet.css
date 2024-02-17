@@ -1,0 +1,229 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Play', sans-serif;
+}
+
+ol, 
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+header {
+    background-color: #000000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+h2 {
+    font-size: 7;
+    color: #8400ffc9;
+}
+
+header a i {
+    color: rgb(83, 6, 184);
+    font-size: 3em;
+    padding: 0.5em;
+}
+
+header nav ul {
+    display: flex;
+    gap: 1.1em;
+}
+
+header nav ul li a {
+    color: rgba(101, 101, 101, 0.648);
+}
+
+.section-1 {
+    background-color: white;    
+    padding: 5% 30%  5% 30%;
+    max-width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.section-2 img{
+    width: 100%;
+}
+
+footer {
+    background-color: black;
+    width: 100%;  
+}
+footer h3 {
+    font-size: 7;
+    color: #8400ffb9
+}
+
+footer nav ul li a {
+    color: white;
+}
+
+footer a i {
+    color: #8400ffbe;
+    position: fixed;
+    bottom: 22px;
+    right: 39px;
+}
+
+@media(max-width:768px) {
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Play', sans-serif;
+        background-color: grey;
+    }
+    header { background-color: rgb(0, 0, 0);}
+    h2 { color: #ff0000;}
+    .section-1 {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-items: center
+    }
+}
+
+.boton1 {
+    background: #000000; /* color de fondo */
+    color: #ffffff; /* color de fuente */
+    border: none; /* tamaño y color de borde */
+    padding: 12px 40px;
+    border-radius: 3px; /* redondear bordes */
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+  }
+  .boton1:hover {
+    color: #fff;/* color de fuente hover */
+  }
+  .boton1::after {
+    content: "";
+    background: #8400ffc4;  /* color de fondo hover */
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.3s ease;
+  }
+  .boton1:hover::after {
+    transition: all 0.3s ease-out;
+    transform: skewX(-45deg) scale(1, 1);
+  }
+
+  
+  .boton2 {
+    background: #000000; /* color de fondo */
+    color: #ffffff; /* color de fuente */
+    border: none; /* tamaño y color de borde */
+    padding: 12px 30px;
+    border-radius: 3px; /* redondear bordes */
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+
+  }
+  .boton2:hover {
+    color: #ffffff;/* color de fuente hover */
+  }
+  .boton2::after {
+    content: "";
+    background: #8400ffc4; /* color de fondo hover */
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.5s ease;
+  }
+  .boton2:hover::after {
+    transition: all 0.3s ease-out;
+    transform: skewX(-45deg) scale(1, 1);
+  }
+
+
+  .boton3 {
+    background: #000000; /* color de fondo */
+    color: #ffffff; /* color de fuente */
+    border: none; /* tamaño y color de borde */
+    padding: 12px 30px;
+    border-radius: 3px; /* redondear bordes */
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+  }
+  .boton3:hover {
+    color: #fff;/* color de fuente hover */
+  }
+  .boton3::after {
+    content: "";
+    background: #8400ffc4; /* color de fondo hover */
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.3s ease;
+  }
+  .boton3:hover::after {
+    transition: all 0.3s ease-out;
+    transform: skewX(-45deg) scale(1, 1);
+  }
+
+
+  .boton4 {
+    background: #000000; /* color de fondo */
+    color: #ffffff; /* color de fuente */
+    border: none; /* tamaño y color de borde */
+    padding: 12px 30px;
+    border-radius: 3px; /* redondear bordes */
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: inline-block;
+
+  }
+  .boton4:hover {
+    color: #ffffff;/* color de fuente hover */
+  }
+  .boton4::after {
+    content: "";
+    background: #8400ffc4;  /* color de fondo hover */
+    position: absolute;
+    z-index: -1;
+    padding: 16px 20px;
+    display: block;
+    left: -20%;
+    right: -20%;
+    top: 0;
+    bottom: 0;
+    transform: skewX(-45deg) scale(0, 1);
+    transition: all 0.5s ease;
+  }
+  .boton4:hover::after {
+    transition: all 0.3s ease-out;
+    transform: skewX(-45deg) scale(1, 1);
+  }
+  
